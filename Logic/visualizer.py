@@ -25,13 +25,14 @@ class Visualizer:
         self.x_axis = x_axis
         self.y_axis = y_axis
 
-    def get_BarChart(self):
+    def get_BarChart(self, a:int, b:int) -> None:
         """
         Crea una grafica de barras horizontal de la informacion
-        guardada actualmente
+        guardada actualmente en un intervalo dado
 
             Parametros:
-                None
+                a : Inicio del intervalo
+                b : Fin del intervalo
             
             Returns:
                 None
@@ -39,5 +40,6 @@ class Visualizer:
         plt.barh(self.x_axis, self.y_axis, color="red")
         plt.xlabel('Cantidad de vacantes')
         plt.ylabel('Compañias')
+        plt.xlim(a,b)
         plt.title('Compañias con mas vacantes')
         plt.show()

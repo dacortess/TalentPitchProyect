@@ -22,10 +22,10 @@ data = ws.get_companies()
 ids = ws.get_ids()
 #pp(ids)
 
-#Creacion de las graficas
+#Creacion de las graficas en un rango
 vs = Visualizer()
 vs.set_AxisData(data)
-vs.get_BarChart()
+vs.get_BarChart(1, 30)
 
 
     
