@@ -104,9 +104,9 @@ class Scrapper:
             name = name[:-3]
         elif name[-4:] == "s.a.":
             name = name[:-4]
-        elif name[-5:] == "s.a.s":
+        elif name[-5:] == "s.a.s" or name[-5:] == "s a s":
             name = name[:-5]
-        elif name[-6:] == "s.a.s." or name[-6:] == "s a s":
+        elif name[-6:] == "s.a.s.":
             name = name[:-6]
         return name
         
