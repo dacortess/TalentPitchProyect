@@ -1,7 +1,7 @@
 # **Talent Pitch**
 
 ## **Proyecto:**
-Algortimo de webscraping.
+Algortimo de webscraping sobre la pagina de computrabajo.
 
 ### **Input:**
 El programa recibe como input na lista de puestos de trabajo relacionados entre si.
