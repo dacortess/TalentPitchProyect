@@ -1,14 +1,18 @@
 # **Talent Pitch:**
 
 ## **Proyecto:**
-Voy a realizar un algortimo de webscraping. La idea es que este reciba como input una lista de cargos relacionados entre si, y como output me muestre las empresas que tienen la vacantes mas relevantes para esos cargos.
+Algortimo de webscraping.
 
-### **Herramientas a usar:**
+### **Input:**
+El programa recibe como input na lista de puestos de trabajo relacionados entre si.
+ 
+### **Output:**
+EL programa muestra las empresas que tienen la mayor cantidad de vacantes para los cargos recibidos.
+
+### **Requerimientos:**
 - Python 3.x
 - Beautiful Soup 4
-- urlopen
-- matplotlib
-
-## **Validación:**
+- Urlopen
+- Matplotlib
 
 
