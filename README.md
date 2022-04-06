@@ -1,4 +1,4 @@
-# **Talent Pitch:**
+# **Talent Pitch**
 
 ## **Proyecto:**
 Algortimo de webscraping.
